@@ -13,7 +13,6 @@ export const PublicationsModel = sequelize.define("Publications", {
     },
     urlpicture: {
         type: DataTypes.STRING,
-        allowNull: true
     }
 }, {
     timestamps: true

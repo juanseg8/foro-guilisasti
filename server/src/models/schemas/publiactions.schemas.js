@@ -8,8 +8,6 @@ export const createPublicationSchema = [
         .isString().withMessage('Debe ser string')
         .notEmpty().withMessage('No debe ser vacio'),
     body("urlpicture")
-        .isURL().withMessage('Ingrese una url valida')
-        .notEmpty().withMessage('No debe ser vacio')
 ]
 
 export const updatePublicationSchema = [
